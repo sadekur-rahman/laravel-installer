@@ -12,8 +12,16 @@
             "SadekurRahman\\LaravelInstaller\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sadekur-rahman/laravel-installer"
+        }
+    ],
     "require": {
         "php": "^7.0.0|^8.0.0",
-        "guzzlehttp/guzzle": "^7.0.1"
-    }
+        "guzzlehttp/guzzle": "^7.0.1",
+        "laravel/framework": "^8.75"
+    },
+    "license": "MIT"
 }
