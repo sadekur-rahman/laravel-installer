@@ -1,0 +1,18 @@
+{
+    "name": "sadekur-rahman/laravel-installer",
+    "description": "Laravel Secure is a comprehensive security package designed to strengthen the security of Laravel applications. It provides multiple layers of protection to guard your project against common vulnerabilities and threats. With built-in tools for securing data, monitoring threats, and managing user access, Secure ensures your Laravel project stays secure without compromising on performance.",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "sadekur rahman"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SadekurRahman\\LaravelInstaller\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
