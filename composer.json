@@ -23,5 +23,6 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "minimum-stability": "stable"
 }
